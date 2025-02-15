@@ -1,0 +1,7 @@
+{
+    "name": "Python",
+    "commands": [
+        "pip install -r requirements.txt",
+        "python WGemma.py"
+    ]
+}
