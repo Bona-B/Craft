@@ -14,8 +14,9 @@ for key, value in final_dict.items():
 			"role": "user",
 			"content": f"Exhibiting conversational flow, contextual awareness, vivid description, humor and an appropriate level nauce, write the non-fiction prose variant of the following using the contextual terms in square brackets as suggestive modifiers while maintaining word count: \n\n{value}"
 		}
-	] )
-	response_dict[key] = response
+    ]
+    )
+    response_dict[key] = response
 	
 	
 with open("results.txt", "w") as file:
