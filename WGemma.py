@@ -22,7 +22,7 @@ for key, value in final_dict.items():
 with open("results.txt", "w") as file:
    for key, value in response_dict.items():
        print(value, file=file)
-       print("\n\n\n")
+       print("\n\n\n", file=file)
        
        
    
